@@ -22,7 +22,7 @@ tmp = *a;
  */
 void selection_sort(int *array, size_t size)
 {
-int min_index;
+int *min_index;
 size_t j, k;
 if (array == NULL || size < 2)
 return;
