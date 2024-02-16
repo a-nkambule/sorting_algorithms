@@ -25,6 +25,7 @@ else
  * insertion_sort_list - Sorts a doubly linked list of integers
  * in ascending order using the Insertion sort algorithm
  * @list: Double pointer to the head of the list
+ * Description: prints the list after each swap
  */
 void insertion_sort_list(listint_t **list)
 {
