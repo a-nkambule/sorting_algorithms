@@ -31,7 +31,7 @@ for (j = 0; j < size - 1; j++)
 min = arrray + j;
 for (k = j + 1; k < size; k++)
 min = (array[k] < *min) ? (array + k) : min;
-if ((array + j) != min_index)
+if ((array + j) != min)
 {
 swap_ints(array + j, min);
 print_array(array, size);
